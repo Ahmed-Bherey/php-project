@@ -7,7 +7,7 @@
     <link rel="shortcut icon" type="image" href="img/title-logo.png">
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/main.css">
     <title>E-commerce || Admin Panel</title>
 </head>
 

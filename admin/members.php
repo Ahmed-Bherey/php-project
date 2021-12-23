@@ -9,7 +9,7 @@ if(isset($_GET['action'])){
 ?>
 
 <?php if(isset($_SESSION['ID'])):?>
-<?php include "config.php"?>
+<?php require "config.php"?>
 <?php include "includes/header.php"?>
 <?php require "includes/navbar.php"?>
 
@@ -102,6 +102,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
     $email = $_POST['email'];
     $password = sha1($_POST['password']);
     $phone = $_POST['phone'];
+
 
 if(empty($username)){
     echo "Please add username";
