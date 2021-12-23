@@ -6,7 +6,7 @@ $password = "";
 
 try{
     $con = new PDO($dsn , $username , $password);
-    echo "connect";
+    // echo "connect";
 }catch(PDOException $e){
     echo $e;
 }
